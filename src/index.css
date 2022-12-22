@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image: url(https://www.xtrafondos.com/wallpapers/resoluciones/21/degradado-difuminado-morado_2560x1440_7944.jpg);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+img {
+  width: 80px;
+  
+}
+h1 {
+  text-align: center;
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  
+}
+h3 {
+  text-align: end;
+  font-style: italic;
+}
+a {
+  
+  align-items: center;
+  margin: 10px;
+  display:inline-block;
+  
+
+}
+
+a img {
+  border-radius: 20%;
+  width: 100%;
+}
+
+  .lg-actions .lg-prev:after {
+  content: "⏪" !important ;
+}
+
+.lg-actions .lg-next:before {
+  content: "⏩" !important ;
+
+}
+.lg-toolbar .lg-close:after {
+  content: "❎" !important ;
+}
+.lg-toolbar .lg-download:after {
+  content: "⤓" !important ;
 }
